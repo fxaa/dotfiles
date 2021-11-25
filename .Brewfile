@@ -23,9 +23,11 @@ brew "tmux"
 brew "git"
 brew "neovim", args: ["HEAD"]
 brew "starship"
-brew "mas"
 brew "elixir"
 brew "krb5"
+
+brew "mas"
+mas "Magnet", id: 441258766
 
 tap "homebrew/cask"
 cask "bitwarden"
