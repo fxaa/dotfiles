@@ -5,12 +5,12 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 # functions
 # usage: add-vim-package user repo folder opt|start 
 add-vim-package () {
-  dotfiles submodule add --name $2 git@github.com:$1/$2.git ~/.vim/pack/$3/$4/$2
+  /usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME submodule add --name $2 git@github.com:$1/$2.git ~/.vim/pack/$3/$4/$2
 }
 
 # usage: add-zsh-package user repo
 add-zsh-package () {
-  dotfiles submodule add --name $2 git@github.com:$1/$2.git ~/.zsh-plugins/$2
+  /usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME submodule add --name $2 git@github.com:$1/$2.git ~/.zsh-plugins/$2
 }
 
 # znap stuff
@@ -33,3 +33,5 @@ znap source zsh-users/zsh-syntax-highlighting
 
 znap source marlonrichert/zcolors
 znap eval   marlonrichert/zcolors "zcolors"
+
+znap eval brew-shellenv "/opt/homebrew/bin/brew shellenv"

@@ -1,0 +1,24 @@
+[submodule "zsh-256color"]
+	path = /Users/trisolaris/.zsh-plugins/zsh-256color
+	url = git@github.com:chrissicool/zsh-256color.git
+[submodule "zsh-async"]
+	path = /Users/trisolaris/.zsh-plugins/zsh-async
+	url = git@github.com:mafredri/zsh-async.git
+[submodule "zed-zsh"]
+	path = /Users/trisolaris/.zsh-plugins/zed-zsh
+	url = git@github.com:eendroroy/zed-zsh.git
+[submodule "fz"]
+	path = /Users/trisolaris/.zsh-plugins/fz
+	url = git@github.com:changyuheng/fz.git
+[submodule "zsh-fzf-history-search"]
+	path = /Users/trisolaris/.zsh-plugins/zsh-fzf-history-search
+	url = git@github.com:joshskidmore/zsh-fzf-history-search.git
+[submodule "jq-zsh-plugin"]
+	path = /Users/trisolaris/.zsh-plugins/jq-zsh-plugin
+	url = git@github.com:reegnz/jq-zsh-plugin.git
+[submodule "ssh"]
+	path = /Users/trisolaris/.zsh-plugins/ssh
+	url = git@github.com:zpm-zsh/ssh.git
+[submodule "fzf-tab"]
+	path = /Users/trisolaris/.zsh-plugins/fzf-tab
+	url = git@github.com:Aloxaf/fzf-tab.git
