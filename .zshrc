@@ -4,6 +4,9 @@ source .zsh-plugins/zsh-snap/znap.zsh
 #### aliases {{{ ####
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
 alias vim="nvim"
+
+alias gits="git status"
+alias gitc="git checkout"
 #### }}} ####
 
 #### functions {{{ ####
@@ -39,7 +42,7 @@ done
 
 #### }}} ####
 
-#### znap {{{ ####
+#### vim {{{ ####
 znap source chrissicool/zsh-256color
 znap source mafredri/zsh-async
 znap source eendroroy/zed-zsh
